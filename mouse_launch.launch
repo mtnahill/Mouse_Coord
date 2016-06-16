@@ -1,0 +1,12 @@
+<launch>
+  catkin_package()
+<!--
+ <param name="mouse_val" type="string" value="mouse2" />
+-->
+  <node name="mouse_A" pkg="beginner_tutorials" type="ros_mouse_A.py" />
+<!--
+ # <param name="mouse_val" type="string" value="mouse3" />
+-->
+  <node name="mouse_B" pkg="beginner_tutorials" type="ros_mouse_B.py" />
+
+</launch>
